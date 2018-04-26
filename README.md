@@ -1,4 +1,5 @@
 Padrões de Criação
+
 Em um sistema orientado a objetos, a criação de certos objetos pode ser uma tarefa extrema- mente complexa. Podemos destacar dois problemas relacionados a criação de objetos:
 
 • definir qual classe concreta deve ser utilizada para criar o objeto;
