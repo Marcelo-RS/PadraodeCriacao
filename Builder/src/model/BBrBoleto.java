@@ -3,7 +3,7 @@ package model;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-public class BBBoleto implements Boleto {
+public class BBrBoleto implements Boleto {
 
 	private String sacado;
 	private String cedente;
@@ -11,7 +11,7 @@ public class BBBoleto implements Boleto {
 	private Calendar vencimento;
 	private int nossoNumero;
 
-	public BBBoleto (String sacado , String cedente , double valor , Calendar vencimento , int nossoNumero) {
+	public BBrBoleto (String sacado , String cedente , double valor , Calendar vencimento , int nossoNumero) {
 
 		this.sacado = sacado;
 		this.cedente = cedente;
@@ -48,7 +48,7 @@ public class BBBoleto implements Boleto {
 	public String toString () {
 
 		StringBuilder stringBuilder = new StringBuilder ();
-		stringBuilder.append("Boleto Banco do Brasil");
+		stringBuilder.append("Boleto Banco Bradesco");
 		stringBuilder.append("\n");
 
 		stringBuilder.append("Sacado: " + this.sacado);
